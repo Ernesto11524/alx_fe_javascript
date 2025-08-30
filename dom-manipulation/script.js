@@ -46,9 +46,9 @@ function showRandomQuote(){
     const addNewQuoteBtn = document.createElement("button");
     addNewQuoteBtn.textContent = "Add New Quote";
     addNewQuoteBtn.addEventListener("click", () => {
-    let showQuoteArea = document.createElement("div");
-    document.body.appendChild(showQuoteArea);
-    showQuoteArea.innerHTML = `
+    let createAddQuoteForm = document.createElement("div");
+    document.body.appendChild(createAddQuoteForm);
+    createAddQuoteForm.innerHTML = `
         <input id="newQuoteText" type="text" placeholder="Enter a new quote" />
         <input id="newQuoteCategory" type="text" placeholder="Enter quote category" />
         <button onclick="addQuote()">Add Quote</button>
