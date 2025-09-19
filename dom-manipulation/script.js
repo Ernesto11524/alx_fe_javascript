@@ -68,3 +68,4 @@ newQuote.addEventListener("click", showRandomQuote);
 // option
 // filterQuote
 // selectedCategory
+// fetchQuotesFromServer
