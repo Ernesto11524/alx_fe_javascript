@@ -66,3 +66,4 @@ newQuote.addEventListener("click", showRandomQuote);
 // FileReader, onload, readAsText
 // populateCategories, categoryFilter, map
 // option
+// filterQuote
