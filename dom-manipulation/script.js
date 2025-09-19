@@ -67,3 +67,4 @@ newQuote.addEventListener("click", showRandomQuote);
 // populateCategories, categoryFilter, map
 // option
 // filterQuote
+// selectedCategory
