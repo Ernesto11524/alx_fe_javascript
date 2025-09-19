@@ -71,3 +71,4 @@ newQuote.addEventListener("click", showRandomQuote);
 // fetchQuotesFromServer
 // await, async, https://jsonplaceholder.typicode.com/posts, .json
 // method, POST, headers, Content-Type
+// syncQuotes
