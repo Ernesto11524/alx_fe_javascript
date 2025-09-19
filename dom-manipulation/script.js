@@ -1,5 +1,6 @@
 const quoteDisplay = document.getElementById("quoteDisplay");
 const newQuote = document.getElementById("newQuote");
+let saved_quotes = JSON.parse(localStorage.getItem('saved_quotes'));
 
 let quotes = [
   {
@@ -32,6 +33,7 @@ function addQuote(){
         category: newQuoteCategory
     }
     quotes.push(addNewQuote)
+    localStorage.setItem('saved_quotes', JSON.stringify(quotes))
 
     for (let i = 0; i < quotes.length; i++){
         console.log(quotes[i].text);
@@ -59,3 +61,4 @@ function showRandomQuote(){
 
 newQuote.addEventListener("click", showRandomQuote);
 
+// localStorage.setItem
