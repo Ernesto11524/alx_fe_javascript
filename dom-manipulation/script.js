@@ -64,3 +64,4 @@ newQuote.addEventListener("click", showRandomQuote);
 // localStorage.setItem
 // application/json, Blob
 // FileReader, onload, readAsText
+// populateCategories, categoryFilter, map
