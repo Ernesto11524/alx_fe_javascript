@@ -65,3 +65,4 @@ newQuote.addEventListener("click", showRandomQuote);
 // application/json, Blob
 // FileReader, onload, readAsText
 // populateCategories, categoryFilter, map
+// option
