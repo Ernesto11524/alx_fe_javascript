@@ -62,3 +62,4 @@ function showRandomQuote(){
 newQuote.addEventListener("click", showRandomQuote);
 
 // localStorage.setItem
+// application/json, Blob
