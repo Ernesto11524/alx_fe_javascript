@@ -73,3 +73,4 @@ newQuote.addEventListener("click", showRandomQuote);
 // method, POST, headers, Content-Type
 // syncQuotes
 // setInterval
+// alert, Quotes synced with server
