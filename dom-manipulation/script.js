@@ -69,3 +69,4 @@ newQuote.addEventListener("click", showRandomQuote);
 // filterQuote
 // selectedCategory
 // fetchQuotesFromServer
+// await, async, https://jsonplaceholder.typicode.com/posts, .json
